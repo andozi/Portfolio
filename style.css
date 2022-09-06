@@ -286,10 +286,6 @@ body {
         width: 65%;
     }
 
-    .about {
-        /* height: 100vh; */
-    }
-
     .who {
         width: 80%;
         top: 55%;
@@ -390,7 +386,7 @@ body {
 .layer p {
     width: 100%;
     font-size: 18px;
-    padding: 0 40px;
+    padding: 0 30px;
     position: absolute;
     color: #fff;
     top: 30%;
