@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f81866d86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <!------------ NAV -------------->
+
+    <section class="nav" id="nav">
+
+        <div class="wrapper" id="wrapper">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#history" class="nav-link">My History</a>
+                </li>
+                <li class="nav-item-home">
+                    <a href="#home" class="nav-link-home">AO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#hobby" class="nav-link">My Hobbys</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </section>
+
+    <!------------ HOME -------------->
+
+    <section class="home" id="home">
+        <div class="welcome">
+            <p class="one">Hi, my Name is</p>
+            <h1>Andrzej Ozimkowski</h1>
+            <p class="two">Welcome to my page!</p>
+
+        </div>
+    </section>
+
+    <!------------ ABOUT ME -------------->
+
+    <section class="about" id="about">
+
+        <div class="who">
+            <h2>Who am I?</h2>
+            <p>I'm 31 years old and I'm from Poland. I live in Germany since 2016.<br> I decided to become a Web
+                Developer.<br>
+                For more, click the arrow below, please!😊
+            </p>
+        </div>
+
+        <img class="my-foto" src="img/about-me.jpg" alt="">
+
+        <button class="more-button"><i class="fa-solid fa-arrow-right-long"></i></button>
+
+        <div class="more">It's nice that you would like to know more about me! I'm starting my adventure as a programmer
+            and I'm looking for my first job. This site is a sample of what I have learned myself since autumn 2021 and
+            also my first project. I want to enter the IT world because I believe this is the job of the future. I like
+            to develop and learn new skills, that's why I think it's something for me. I am a person who likes changes
+            and new challenges. I've done a lot of different jobs in the past and learned something different from each
+            one.
+
+        </div>
+
+    </section>
+
+    <!------------ MY HISTORY -------------->
+
+    <section class="history" id="history">
+
+        <h1>My History</h1>
+
+        <div class="row">
+            <div class="job">
+                <img src="img/bus.jpg">
+                <div class="layer">
+                    <h3><i class="fa-solid fa-bus"></i></h3>
+                    <p>I have been a bus driver for almost 3 years. I passed my bus driving license in Leipzig. It was a
+                        great adventure for me, but also an opportunity to learn something about myself. I know that I
+                        am responsible, people can trust me and I can deal with difficult, stressful situations.</p>
+                </div>
+            </div>
+            <div class="job">
+                <img src="img/vegetables.jpg" alt="">
+                <div class="layer">
+                    <h3><i class="fa-solid fa-apple-whole"></i></h3>
+                    <p>After graduation, I worked as a dietitian. I had a private practice where I helped people with
+                        obesity, diabetes and cardiovascular diseases. I dealt with setting menus, modifying the diet
+                        depending on the results obtained by patients, and constantly monitoring the progress of my
+                        patients. It was a job that required empathy, understanding the needs of others and taking
+                        responsibility for their health.</p>
+                </div>
+            </div>
+            <div class="job">
+                <img src="img/stockroom.jpg" alt="">
+                <div class="layer">
+                    <h3><i class="fa-solid fa-boxes-stacked"></i></h3>
+                    <p>When I came to Germany, I didn't know the language very well, so I had to start with physical
+                        work. These were mainly warehouses and factories. It was a difficult time which required
+                        patience and learning German in order to have a chance at a better job in the future.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!------------ Hobby -------------->
+
+    <section class="hobby" id="hobby">
+        <h1>What I like?</h1>
+        <div class="hobby-container">
+            <div class="hobby-item">
+                <p>Travel</p>
+                <img src="img/travel1.k.jpg" alt="">
+
+            </div>
+            <div class="hobby-item">
+                <p>Triathlon</p>
+                <img src="img/triathlon.jpg" alt="">
+
+            </div>
+            <div class="hobby-item">
+                <p>Running</p>
+                <img src="img/running-insta.zw.jpg" alt="">
+
+            </div>
+            <div class="hobby-item">
+                <p>Football</p>
+                <img src="img/ball.jpg" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <!------------ Contact -------------->
+
+    <section class="contact" id="contact">
+        <h1>Please, contact me!</h1>
+        <div class="wrap">
+            <form class="form" action="https://formsubmit.io/send/ozimkowskiandrzej@gmail.com" method="POST">
+                <input type="text" placeholder="your name">
+                <input type="text" placeholder="your mail">
+                <textarea placeholder="your message"></textarea>
+                <button type="submit">Send a message</button>
+            </form>
+
+            <div class="socials">
+                <div><i class="fa-solid fa-phone"></i><span>+49 151 458 406 43</span></div>
+                <div><i class="fa-solid fa-envelope"></i><span>ozimkowskiandrzej@gmail.com</span></div>
+                <div><a href="https://github.com/andozi"><i class="fa-brands fa-github"></i></a><span>andozi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p><i class="fa-regular fa-copyright"></i>Andrzej Ozimkowski 2022</p>
+    </section>
+
+</body>
+
+</html>
